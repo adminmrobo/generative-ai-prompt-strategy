@@ -1,7 +1,7 @@
 {
- "version": "0.2",
+ "version": "0.3",
  "created": "2026-11-01",
- "note": "05번 페이지가 첫 등록, 06번 페이지를 합침 (2026-11-03). 다른 시리즈 등록부가 있으면 합칠 것.",
+ "note": "05번 페이지가 첫 등록, 06번 페이지를 합침 (2026-11-03). 다른 시리즈 등록부가 있으면 합칠 것. 07번 페이지를 합침 (2026-11-10).",
  "ids": [
   {
    "id": "lab:concept/prompt-engineering",
@@ -631,7 +631,8 @@
    "ko": "제약 (C)",
    "en": "constraints",
    "pages": [
-    "06"
+    "06",
+    "07"
    ]
   },
   {
@@ -1164,13 +1165,440 @@
    "pages": [
     "06"
    ]
+  },
+  {
+   "id": "lab:method/six-element-prompt",
+   "type": "Method",
+   "ko": "6요소 프롬프트",
+   "en": "six-element prompt structure",
+   "pages": [
+    "07"
+   ]
+  },
+  {
+   "id": "lab:method/camera-angle-control",
+   "type": "Method",
+   "ko": "시점·앵글 지정",
+   "en": "viewpoint and camera angle control",
+   "pages": [
+    "07"
+   ]
+  },
+  {
+   "id": "lab:method/percent-expression",
+   "type": "Method",
+   "ko": "퍼센트 표정 제어",
+   "en": "percent-based expression control",
+   "pages": [
+    "07"
+   ]
+  },
+  {
+   "id": "lab:method/rtsc-mascot",
+   "type": "Method",
+   "ko": "R-T-S-C 마스코트 설계",
+   "en": "Role-Target-Style-Constraint mascot framework",
+   "pages": [
+    "07"
+   ]
+  },
+  {
+   "id": "lab:method/stickman",
+   "type": "Method",
+   "ko": "스틱맨 먼저 그리기",
+   "en": "stickman-first animation",
+   "pages": [
+    "07"
+   ]
+  },
+  {
+   "id": "lab:method/asset-spec",
+   "type": "Method",
+   "ko": "사양서·파일 이름 규칙",
+   "en": "asset specification and naming",
+   "pages": [
+    "07"
+   ]
+  },
+  {
+   "id": "lab:method/github-docs",
+   "type": "Method",
+   "ko": "GitHub 작업 기록",
+   "en": "GitHub-based asset documentation",
+   "pages": [
+    "07"
+   ]
+  },
+  {
+   "id": "lab:limitation/l1",
+   "type": "Limitation",
+   "ko": "한 장은 되지만 각도의 왜곡을 말로만 지시함",
+   "en": "angle distortion is not predicted",
+   "pages": [
+    "07"
+   ]
+  },
+  {
+   "id": "lab:limitation/l2",
+   "type": "Limitation",
+   "ko": "얼굴이 정해져도 감정이 비어 있음",
+   "en": "expression left unspecified",
+   "pages": [
+    "07"
+   ]
+  },
+  {
+   "id": "lab:limitation/l3",
+   "type": "Limitation",
+   "ko": "표정은 되지만 쓰임새(브랜드)와 움직임이 없음",
+   "en": "no role or motion",
+   "pages": [
+    "07"
+   ]
+  },
+  {
+   "id": "lab:limitation/l4",
+   "type": "Limitation",
+   "ko": "결과물이 늘면 파일과 설정이 흩어짐",
+   "en": "assets scatter as they grow",
+   "pages": [
+    "07"
+   ]
+  },
+  {
+   "id": "lab:limitation/l5",
+   "type": "Limitation",
+   "ko": "기록 체계가 있어도 생성 결과는 매번 조금씩 다름",
+   "en": "generation still varies",
+   "pages": [
+    "07"
+   ]
+  },
+  {
+   "id": "lab:concept/prompt",
+   "type": "Concept",
+   "ko": "프롬프트",
+   "en": "prompt",
+   "pages": [
+    "07"
+   ]
+  },
+  {
+   "id": "lab:concept/consistency",
+   "type": "Concept",
+   "ko": "캐릭터 일관성",
+   "en": "character consistency",
+   "pages": [
+    "07"
+   ]
+  },
+  {
+   "id": "lab:concept/multimodal-prompt",
+   "type": "Concept",
+   "ko": "멀티모달 프롬프트",
+   "en": "multimodal prompt",
+   "pages": [
+    "07"
+   ]
+  },
+  {
+   "id": "lab:concept/normalization",
+   "type": "Concept",
+   "ko": "정규화 출력",
+   "en": "normalized output",
+   "pages": [
+    "07"
+   ]
+  },
+  {
+   "id": "lab:concept/pov",
+   "type": "Concept",
+   "ko": "시점(POV)",
+   "en": "point of view",
+   "pages": [
+    "07"
+   ]
+  },
+  {
+   "id": "lab:concept/high-angle",
+   "type": "Concept",
+   "ko": "하이앵글",
+   "en": "high angle",
+   "pages": [
+    "07"
+   ]
+  },
+  {
+   "id": "lab:concept/low-angle",
+   "type": "Concept",
+   "ko": "로우앵글",
+   "en": "low angle",
+   "pages": [
+    "07"
+   ]
+  },
+  {
+   "id": "lab:concept/perspective",
+   "type": "Concept",
+   "ko": "원근",
+   "en": "perspective",
+   "pages": [
+    "07"
+   ]
+  },
+  {
+   "id": "lab:concept/shot-type",
+   "type": "Concept",
+   "ko": "샷 타입",
+   "en": "shot type",
+   "pages": [
+    "07"
+   ]
+  },
+  {
+   "id": "lab:concept/dutch-angle",
+   "type": "Concept",
+   "ko": "더치 앵글",
+   "en": "dutch angle",
+   "pages": [
+    "07"
+   ]
+  },
+  {
+   "id": "lab:concept/emotion-sheet",
+   "type": "Concept",
+   "ko": "감정 시트",
+   "en": "emotion sheet",
+   "pages": [
+    "07"
+   ]
+  },
+  {
+   "id": "lab:concept/three-point-lighting",
+   "type": "Concept",
+   "ko": "3점 조명",
+   "en": "three-point lighting",
+   "pages": [
+    "07"
+   ]
+  },
+  {
+   "id": "lab:concept/color-temperature",
+   "type": "Concept",
+   "ko": "색온도",
+   "en": "color temperature",
+   "pages": [
+    "07"
+   ]
+  },
+  {
+   "id": "lab:concept/lighting-ratio",
+   "type": "Concept",
+   "ko": "조명비",
+   "en": "lighting ratio",
+   "pages": [
+    "07"
+   ]
+  },
+  {
+   "id": "lab:concept/keypose",
+   "type": "Concept",
+   "ko": "키포즈",
+   "en": "key pose",
+   "pages": [
+    "07"
+   ]
+  },
+  {
+   "id": "lab:concept/inbetween",
+   "type": "Concept",
+   "ko": "중간동작",
+   "en": "in-between",
+   "pages": [
+    "07"
+   ]
+  },
+  {
+   "id": "lab:concept/loop",
+   "type": "Concept",
+   "ko": "루프 애니메이션",
+   "en": "loop animation",
+   "pages": [
+    "07"
+   ]
+  },
+  {
+   "id": "lab:concept/json-schema",
+   "type": "Concept",
+   "ko": "스키마",
+   "en": "schema",
+   "pages": [
+    "07"
+   ]
+  },
+  {
+   "id": "lab:concept/lod",
+   "type": "Concept",
+   "ko": "LOD",
+   "en": "level of detail",
+   "pages": [
+    "07"
+   ]
+  },
+  {
+   "id": "lab:concept/pbr",
+   "type": "Concept",
+   "ko": "PBR 재질",
+   "en": "physically based rendering material",
+   "pages": [
+    "07"
+   ]
+  },
+  {
+   "id": "lab:concept/commit",
+   "type": "Concept",
+   "ko": "커밋",
+   "en": "commit",
+   "pages": [
+    "07"
+   ]
+  },
+  {
+   "id": "lab:concept/pull-request",
+   "type": "Concept",
+   "ko": "PR(풀 리퀘스트)",
+   "en": "pull request",
+   "pages": [
+    "07"
+   ]
+  },
+  {
+   "id": "lab:method/pinned-block",
+   "type": "Method",
+   "ko": "고정 블록 + 한 칸 수정",
+   "en": "fixed identity block with single-slot edit",
+   "pages": [
+    "07"
+   ]
+  },
+  {
+   "id": "lab:method/rewrite-each",
+   "type": "Method",
+   "ko": "매 장면 새로 쓰기",
+   "en": "rewrite the whole prompt each scene",
+   "pages": [
+    "07"
+   ]
+  },
+  {
+   "id": "lab:metric/attribute-match",
+   "type": "Metric",
+   "ko": "기준 시트 일치율",
+   "en": "attribute match rate",
+   "pages": [
+    "07"
+   ]
+  },
+  {
+   "id": "lab:question/core-07",
+   "type": "Question",
+   "ko": "같은 캐릭터를 장면마다 똑같이 그리려면 무엇을 고정해야 할까?",
+   "en": "what must be fixed to keep a character consistent?",
+   "pages": [
+    "07"
+   ]
+  },
+  {
+   "id": "lab:question/duel-07",
+   "type": "Question",
+   "ko": "다섯 장면 동안 외형을 더 잘 지키는 쪽은?",
+   "en": "which strategy keeps the look across five scenes?",
+   "pages": [
+    "07"
+   ]
+  },
+  {
+   "id": "lab:question/percent-meaning",
+   "type": "Question",
+   "ko": "'미소 8%'를 모델이 정확히 재는가?",
+   "en": "do models measure 'smile 8%' exactly?",
+   "pages": [
+    "07"
+   ]
+  },
+  {
+   "id": "lab:sim/sim-builder",
+   "type": "Simulation",
+   "ko": "6요소 조립기",
+   "en": "sim-builder",
+   "pages": [
+    "07"
+   ]
+  },
+  {
+   "id": "lab:sim/sim-camera",
+   "type": "Simulation",
+   "ko": "카메라 높이 실험",
+   "en": "sim-camera",
+   "pages": [
+    "07"
+   ]
+  },
+  {
+   "id": "lab:sim/sim-face",
+   "type": "Simulation",
+   "ko": "표정·조명 실험",
+   "en": "sim-face",
+   "pages": [
+    "07"
+   ]
+  },
+  {
+   "id": "lab:sim/sim-loop",
+   "type": "Simulation",
+   "ko": "스틱맨 루프 실험",
+   "en": "sim-loop",
+   "pages": [
+    "07"
+   ]
+  },
+  {
+   "id": "lab:sim/sim-naming",
+   "type": "Simulation",
+   "ko": "파일 이름·형식 검사",
+   "en": "sim-naming",
+   "pages": [
+    "07"
+   ]
+  },
+  {
+   "id": "lab:sim/sim-duel",
+   "type": "Simulation",
+   "ko": "다섯 장면 대결",
+   "en": "sim-duel",
+   "pages": [
+    "07"
+   ]
+  },
+  {
+   "id": "lab:work/genai-strategy-ch07",
+   "type": "Work",
+   "ko": "생성형AI활용전략 교안 · 캐릭터 디자인을 위한 프롬프트",
+   "en": "Generative AI Strategy lecture notes: Prompts for Character Design",
+   "pages": [
+    "07"
+   ]
   }
  ],
  "refs": [
   {
    "id": "handout2026ch5prompt",
    "title": "제5장 프롬프트 엔지니어링 활용 — 창업 업종분석: 카페·패션몰"
+  },
+  {
+   "id": "genaistrategy2026ch07",
+   "title": "제7장 캐릭터 디자인을 위한 프롬프트 (학생 배포용 교안)"
   }
  ],
- "updated": "2026-11-03"
+ "updated": "2026-11-10"
 }
