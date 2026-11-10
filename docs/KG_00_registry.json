@@ -1,0 +1,1176 @@
+{
+ "version": "0.2",
+ "created": "2026-11-01",
+ "note": "05번 페이지가 첫 등록, 06번 페이지를 합침 (2026-11-03). 다른 시리즈 등록부가 있으면 합칠 것.",
+ "ids": [
+  {
+   "id": "lab:concept/prompt-engineering",
+   "type": "Concept",
+   "ko": "프롬프트 설계",
+   "en": "prompt engineering",
+   "pages": [
+    "05",
+    "06"
+   ]
+  },
+  {
+   "id": "lab:concept/hypothesis-validation",
+   "type": "Concept",
+   "ko": "아이디어 검증",
+   "en": "idea validation",
+   "pages": [
+    "05"
+   ]
+  },
+  {
+   "id": "lab:concept/parallel-testing",
+   "type": "Concept",
+   "ko": "병렬 가벼운 검증",
+   "en": "parallel lightweight testing",
+   "pages": [
+    "05"
+   ]
+  },
+  {
+   "id": "lab:concept/decision-quality",
+   "type": "Concept",
+   "ko": "의사결정 품질",
+   "en": "decision quality",
+   "pages": [
+    "05"
+   ]
+  },
+  {
+   "id": "lab:concept/mvp",
+   "type": "Concept",
+   "ko": "최소 기능 제품",
+   "en": "minimum viable product",
+   "pages": [
+    "05"
+   ]
+  },
+  {
+   "id": "lab:concept/product-market-fit",
+   "type": "Concept",
+   "ko": "제품-시장 적합도",
+   "en": "product-market fit",
+   "pages": [
+    "05"
+   ]
+  },
+  {
+   "id": "lab:method/five-stage-flow",
+   "type": "Method",
+   "ko": "5단계 흐름",
+   "en": "five-stage flow",
+   "pages": [
+    "05"
+   ]
+  },
+  {
+   "id": "lab:task/market-analysis",
+   "type": "Task",
+   "ko": "시장 분석",
+   "en": "market analysis",
+   "pages": [
+    "05"
+   ]
+  },
+  {
+   "id": "lab:task/kpi-design",
+   "type": "Task",
+   "ko": "KPI 설계",
+   "en": "KPI design",
+   "pages": [
+    "05"
+   ]
+  },
+  {
+   "id": "lab:task/pnl-simulation",
+   "type": "Task",
+   "ko": "손익 시뮬레이션",
+   "en": "P&L simulation",
+   "pages": [
+    "05"
+   ]
+  },
+  {
+   "id": "lab:task/branding",
+   "type": "Task",
+   "ko": "브랜딩 액션",
+   "en": "branding action",
+   "pages": [
+    "05"
+   ]
+  },
+  {
+   "id": "lab:concept/conversion-funnel",
+   "type": "Concept",
+   "ko": "전환 퍼널",
+   "en": "conversion funnel",
+   "pages": [
+    "05"
+   ]
+  },
+  {
+   "id": "lab:metric/checkout-conversion",
+   "type": "Metric",
+   "ko": "결제 전환율",
+   "en": "checkout conversion rate",
+   "pages": [
+    "05"
+   ]
+  },
+  {
+   "id": "lab:metric/repurchase-rate",
+   "type": "Metric",
+   "ko": "재구매율",
+   "en": "repurchase rate",
+   "pages": [
+    "05"
+   ]
+  },
+  {
+   "id": "lab:metric/aov",
+   "type": "Metric",
+   "ko": "객단가",
+   "en": "average order value",
+   "pages": [
+    "05"
+   ]
+  },
+  {
+   "id": "lab:metric/return-rate",
+   "type": "Metric",
+   "ko": "반품률",
+   "en": "return rate",
+   "pages": [
+    "05"
+   ]
+  },
+  {
+   "id": "lab:metric/ad-efficiency",
+   "type": "Metric",
+   "ko": "광고비 효율",
+   "en": "advertising efficiency",
+   "pages": [
+    "05"
+   ]
+  },
+  {
+   "id": "lab:concept/sensitivity",
+   "type": "Concept",
+   "ko": "민감도",
+   "en": "sensitivity",
+   "pages": [
+    "05"
+   ]
+  },
+  {
+   "id": "lab:concept/ltv",
+   "type": "Concept",
+   "ko": "고객 생애 가치",
+   "en": "customer lifetime value",
+   "pages": [
+    "05"
+   ]
+  },
+  {
+   "id": "lab:concept/margin",
+   "type": "Concept",
+   "ko": "마진율",
+   "en": "margin rate",
+   "pages": [
+    "05"
+   ]
+  },
+  {
+   "id": "lab:method/cafe-seven-steps",
+   "type": "Method",
+   "ko": "카페 7단계 분석",
+   "en": "cafe seven-step analysis",
+   "pages": [
+    "05"
+   ]
+  },
+  {
+   "id": "lab:metric/capture-rate",
+   "type": "Metric",
+   "ko": "유입률",
+   "en": "capture rate",
+   "pages": [
+    "05"
+   ]
+  },
+  {
+   "id": "lab:metric/seat-turnover",
+   "type": "Metric",
+   "ko": "좌석 회전율",
+   "en": "seat turnover",
+   "pages": [
+    "05"
+   ]
+  },
+  {
+   "id": "lab:concept/break-even",
+   "type": "Concept",
+   "ko": "손익분기점",
+   "en": "break-even point",
+   "pages": [
+    "05"
+   ]
+  },
+  {
+   "id": "lab:concept/fixed-variable-cost",
+   "type": "Concept",
+   "ko": "고정비·변동비",
+   "en": "fixed and variable costs",
+   "pages": [
+    "05"
+   ]
+  },
+  {
+   "id": "lab:concept/scenario-range",
+   "type": "Concept",
+   "ko": "시나리오 폭",
+   "en": "scenario range",
+   "pages": [
+    "05"
+   ]
+  },
+  {
+   "id": "lab:concept/go-redesign-stop",
+   "type": "Concept",
+   "ko": "진행·재설계·중지",
+   "en": "go / redesign / stop",
+   "pages": [
+    "05"
+   ]
+  },
+  {
+   "id": "lab:method/rtp-ask-fc",
+   "type": "Method",
+   "ko": "RTP-ASK-FC",
+   "en": "RTP-ASK-FC prompt frame",
+   "pages": [
+    "05"
+   ]
+  },
+  {
+   "id": "lab:term/role",
+   "type": "Term",
+   "ko": "역할(R)",
+   "en": "role",
+   "pages": [
+    "05"
+   ]
+  },
+  {
+   "id": "lab:term/context",
+   "type": "Term",
+   "ko": "맥락(C)",
+   "en": "context",
+   "pages": [
+    "05"
+   ]
+  },
+  {
+   "id": "lab:term/task",
+   "type": "Term",
+   "ko": "과업(T)",
+   "en": "task",
+   "pages": [
+    "05"
+   ]
+  },
+  {
+   "id": "lab:term/purpose",
+   "type": "Term",
+   "ko": "목적(P)",
+   "en": "purpose",
+   "pages": [
+    "05"
+   ]
+  },
+  {
+   "id": "lab:term/audience",
+   "type": "Term",
+   "ko": "청중(A)",
+   "en": "audience",
+   "pages": [
+    "05"
+   ]
+  },
+  {
+   "id": "lab:term/style",
+   "type": "Term",
+   "ko": "스타일(S)",
+   "en": "style",
+   "pages": [
+    "05"
+   ]
+  },
+  {
+   "id": "lab:term/format",
+   "type": "Term",
+   "ko": "형식(F)",
+   "en": "format",
+   "pages": [
+    "05"
+   ]
+  },
+  {
+   "id": "lab:term/knowledge",
+   "type": "Term",
+   "ko": "지식(K)",
+   "en": "knowledge",
+   "pages": [
+    "05"
+   ]
+  },
+  {
+   "id": "lab:method/problem-decomposition",
+   "type": "Method",
+   "ko": "문제 분해 7단계",
+   "en": "problem decomposition",
+   "pages": [
+    "05"
+   ]
+  },
+  {
+   "id": "lab:method/brand-asset-process",
+   "type": "Method",
+   "ko": "브랜딩 자산 5단계",
+   "en": "brand asset process",
+   "pages": [
+    "05"
+   ]
+  },
+  {
+   "id": "lab:concept/style-guide",
+   "type": "Concept",
+   "ko": "브랜드 스타일 가이드",
+   "en": "brand style guide",
+   "pages": [
+    "05"
+   ]
+  },
+  {
+   "id": "lab:limitation/where-it-leaks",
+   "type": "Limitation",
+   "ko": "흐름만으로는 어디서 새는지 모른다",
+   "en": "flow alone hides where value leaks",
+   "pages": [
+    "05"
+   ]
+  },
+  {
+   "id": "lab:limitation/physical-capacity",
+   "type": "Limitation",
+   "ko": "온라인 퍼널은 입지·좌석 같은 물리 제약을 못 담는다",
+   "en": "funnels ignore physical capacity",
+   "pages": [
+    "05"
+   ]
+  },
+  {
+   "id": "lab:limitation/vague-question",
+   "type": "Limitation",
+   "ko": "질문이 흐리면 가정도 흐려진다",
+   "en": "vague questions give vague assumptions",
+   "pages": [
+    "05"
+   ]
+  },
+  {
+   "id": "lab:limitation/one-shot",
+   "type": "Limitation",
+   "ko": "한 줄 프롬프트로 큰 문제를 한 번에 풀 수 없다",
+   "en": "one prompt cannot solve a big problem at once",
+   "pages": [
+    "05"
+   ]
+  },
+  {
+   "id": "lab:limitation/output-is-hypothesis",
+   "type": "Limitation",
+   "ko": "AI 출력은 결론이 아니라 가설이다",
+   "en": "AI output is a hypothesis, not a verdict",
+   "pages": [
+    "05"
+   ]
+  },
+  {
+   "id": "lab:claim/5-10x",
+   "type": "Claim",
+   "ko": "같은 시간·비용으로 5~10배 많은 콘셉트를 검증",
+   "en": "5-10x more concepts tested",
+   "pages": [
+    "05"
+   ]
+  },
+  {
+   "id": "lab:claim/funnel-six",
+   "type": "Claim",
+   "ko": "패션몰 전환 퍼널은 여섯 단계",
+   "en": "six-stage fashion funnel",
+   "pages": [
+    "05"
+   ]
+  },
+  {
+   "id": "lab:claim/cafe-revenue",
+   "type": "Claim",
+   "ko": "예시 월 매출 6,500원 × 80명 × 26일 ≈ 1,352만원",
+   "en": "example monthly revenue",
+   "pages": [
+    "05"
+   ]
+  },
+  {
+   "id": "lab:claim/cafe-profit",
+   "type": "Claim",
+   "ko": "평균 시나리오 월 손익 100~300만원(교안 추정)",
+   "en": "handout profit estimate",
+   "pages": [
+    "05"
+   ]
+  },
+  {
+   "id": "lab:claim/eight-elements",
+   "type": "Claim",
+   "ko": "프롬프트 설계 요소는 여덟 가지",
+   "en": "eight prompt elements",
+   "pages": [
+    "05"
+   ]
+  },
+  {
+   "id": "lab:claim/three-outcomes",
+   "type": "Claim",
+   "ko": "카페 분석의 결론은 진행·재설계·중지 셋 중 하나",
+   "en": "three outcomes",
+   "pages": [
+    "05"
+   ]
+  },
+  {
+   "id": "lab:question/core",
+   "type": "Question",
+   "ko": "프롬프트 한 줄로 창업 아이디어를 숫자로 시험할 수 있을까?",
+   "en": "core question",
+   "pages": [
+    "05"
+   ]
+  },
+  {
+   "id": "lab:question/duel",
+   "type": "Question",
+   "ko": "같은 월 500만원, 광고에 쓸까 결제 마찰을 줄이는 데 쓸까?",
+   "en": "duel question",
+   "pages": [
+    "05"
+   ]
+  },
+  {
+   "id": "lab:question/ltv-horizon",
+   "type": "Question",
+   "ko": "재구매의 누적 가치는 몇 달 기준으로 봐야 하나?",
+   "en": "LTV horizon",
+   "pages": [
+    "05"
+   ]
+  },
+  {
+   "id": "lab:question/real-data",
+   "type": "Question",
+   "ko": "예시값 대신 실제 상권 데이터를 넣으면 결론이 바뀔까?",
+   "en": "real data check",
+   "pages": [
+    "05"
+   ]
+  },
+  {
+   "id": "lab:analogy/leaky-ledger",
+   "type": "Analogy",
+   "ko": "새는 장부 칸",
+   "en": "leaky ledger",
+   "pages": [
+    "05"
+   ]
+  },
+  {
+   "id": "lab:analogy/seat-coin",
+   "type": "Analogy",
+   "ko": "하루에 여러 번 돈을 버는 좌석",
+   "en": "seat as a coin slot",
+   "pages": [
+    "05"
+   ]
+  },
+  {
+   "id": "lab:analogy/order-form",
+   "type": "Analogy",
+   "ko": "주문서 빈칸",
+   "en": "order form blanks",
+   "pages": [
+    "05"
+   ]
+  },
+  {
+   "id": "lab:analogy/portfolio",
+   "type": "Analogy",
+   "ko": "작게 여러 곳에 걸어 보기",
+   "en": "small bets",
+   "pages": [
+    "05"
+   ]
+  },
+  {
+   "id": "lab:work/handout-ch5",
+   "type": "Work",
+   "ko": "제5장 프롬프트 엔지니어링 활용 — 창업 업종분석(교안)",
+   "en": "Chapter 5 handout",
+   "pages": [
+    "05"
+   ]
+  },
+  {
+   "id": "lab:concept/rtpaskfc",
+   "type": "Concept",
+   "ko": "R·T·P·A·S·K·F·C 프레임워크",
+   "en": "eight prompt elements",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:method/one-line-prompt",
+   "type": "Method",
+   "ko": "한 줄 프롬프트",
+   "en": "one-line prompt",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:concept/role-prompting",
+   "type": "Concept",
+   "ko": "역할 설정 (R)",
+   "en": "role prompting",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:concept/task-goal",
+   "type": "Concept",
+   "ko": "과업·목표 (T)",
+   "en": "task and goal",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:concept/smart-goal",
+   "type": "Concept",
+   "ko": "SMART 목표",
+   "en": "SMART goal",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:concept/policy",
+   "type": "Concept",
+   "ko": "정책 (P)",
+   "en": "policy",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:concept/audience-persona",
+   "type": "Concept",
+   "ko": "대상·페르소나 (A)",
+   "en": "audience persona",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:concept/style-tone",
+   "type": "Concept",
+   "ko": "말투 (S)",
+   "en": "style and tone",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:concept/knowledge-injection",
+   "type": "Concept",
+   "ko": "지식 주입 (K)",
+   "en": "knowledge injection",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:concept/output-format",
+   "type": "Concept",
+   "ko": "형식 (F)",
+   "en": "output format",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:concept/constraints",
+   "type": "Concept",
+   "ko": "제약 (C)",
+   "en": "constraints",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:method/eight-bone-prompt",
+   "type": "Method",
+   "ko": "8요소 프롬프트",
+   "en": "eight-element prompt",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:method/multi-perspective",
+   "type": "Method",
+   "ko": "다중 관점",
+   "en": "multi-perspective prompting",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:method/self-consistency",
+   "type": "Method",
+   "ko": "자기일관성",
+   "en": "self-consistency",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:method/sampling-vote",
+   "type": "Method",
+   "ko": "샘플링 투표",
+   "en": "sampling and self-scoring vote",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:method/react",
+   "type": "Method",
+   "ko": "REACT (ReAct)",
+   "en": "ReAct",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:method/expert-roleplay",
+   "type": "Method",
+   "ko": "전문가 역할극",
+   "en": "multi-expert role-play",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:method/rag",
+   "type": "Method",
+   "ko": "RAG (검색 증강 생성)",
+   "en": "retrieval-augmented generation",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:method/tree-of-thoughts",
+   "type": "Method",
+   "ko": "생각트리",
+   "en": "ThinkTree / tree of thoughts",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:method/min-max-staging",
+   "type": "Method",
+   "ko": "최소-최대 접근",
+   "en": "minimum-to-maximum staging",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:method/least-to-most",
+   "type": "Method",
+   "ko": "Least-to-Most 프롬프팅",
+   "en": "least-to-most prompting",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:method/reflexion",
+   "type": "Method",
+   "ko": "Reflexion",
+   "en": "Reflexion",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:concept/brand-identity",
+   "type": "Concept",
+   "ko": "브랜드 아이덴티티 8단계",
+   "en": "brand identity process",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:concept/compliance",
+   "type": "Concept",
+   "ko": "컴플라이언스",
+   "en": "compliance",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:limitation/generic-answer",
+   "type": "Limitation",
+   "ko": "누구에게나 맞는 뻔한 답",
+   "en": "generic answer",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:limitation/no-context",
+   "type": "Limitation",
+   "ko": "우리 가게 사정을 모른다",
+   "en": "missing business context",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:limitation/unbounded-ideal",
+   "type": "Limitation",
+   "ko": "모양이 제각각, 예산 초과",
+   "en": "unbounded ideal plan",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:limitation/single-pass",
+   "type": "Limitation",
+   "ko": "한 번의 답",
+   "en": "single-pass answer",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:limitation/needs-human-check",
+   "type": "Limitation",
+   "ko": "사실·법적 확인은 사람 몫",
+   "en": "needs human verification",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:task/cafe-startup",
+   "type": "Task",
+   "ko": "카페 창업 계획",
+   "en": "cafe startup planning",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:task/fashion-mall-launch",
+   "type": "Task",
+   "ko": "패션 쇼핑몰 론칭",
+   "en": "fashion e-commerce launch",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:task/pricing",
+   "type": "Task",
+   "ko": "가격 책정",
+   "en": "pricing",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:task/brand-naming",
+   "type": "Task",
+   "ko": "브랜드 네이밍",
+   "en": "brand naming",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:metric/requirement-hit-rate",
+   "type": "Metric",
+   "ko": "요구 조건 적중률",
+   "en": "requirement hit rate",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:metric/daily-sales",
+   "type": "Metric",
+   "ko": "일 매출",
+   "en": "daily sales",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:metric/weighted-score",
+   "type": "Metric",
+   "ko": "가중 총점",
+   "en": "weighted score",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:claim/role-raises-expertise",
+   "type": "Claim",
+   "ko": "구체적 경력을 준 역할 설정이 답의 전문성을 끌어올린다 (교재의 주장)",
+   "en": "specific role raises answer expertise (textbook claim)",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:claim/no-constraint-ideal",
+   "type": "Claim",
+   "ko": "제약이 없으면 AI는 이상적인 답만 내놓는다 (교재의 주장)",
+   "en": "without constraints AI gives idealized answers (textbook claim)",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:claim/naming-scores",
+   "type": "Claim",
+   "ko": "교재 예시 채점: A 89점 · C 86점 · B 78점",
+   "en": "textbook example scores A 89, C 86, B 78",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:claim/price-range",
+   "type": "Claim",
+   "ko": "세 접근 통합 추천가 6,800~7,500원 (교재 예시)",
+   "en": "integrated price 6,800–7,500 KRW (textbook example)",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:claim/segment-stay",
+   "type": "Claim",
+   "ko": "대학가 세그먼트 체류 시간: 학생 1.5시간 · 직장인 30분~1시간 · 주민 2시간 이상 (교재 예시)",
+   "en": "segment stay times (textbook example)",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:claim/react-interleave",
+   "type": "Claim",
+   "ko": "ReAct는 추론 흔적과 행동을 번갈아 생성한다",
+   "en": "ReAct interleaves reasoning traces and actions",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:claim/self-consistency-vote",
+   "type": "Claim",
+   "ko": "Self-Consistency는 여러 추론 경로를 뽑아 가장 일관된 답을 고른다",
+   "en": "self-consistency samples diverse reasoning paths and picks the most consistent answer",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:claim/rag-retrieve",
+   "type": "Claim",
+   "ko": "RAG는 검색한 문서를 생성에 함께 쓴다",
+   "en": "RAG conditions generation on retrieved documents",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:claim/tot-search",
+   "type": "Claim",
+   "ko": "Tree of Thoughts는 생각의 갈래를 탐색하고 평가한다",
+   "en": "tree of thoughts explores and evaluates branches of thought",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:claim/l2m-decompose",
+   "type": "Claim",
+   "ko": "Least-to-Most는 문제를 하위 문제로 나눠 차례로 푼다",
+   "en": "least-to-most decomposes into subproblems solved in sequence",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:claim/reflexion-reflect",
+   "type": "Claim",
+   "ko": "Reflexion은 언어로 된 성찰을 기억해 다음 시도를 고친다",
+   "en": "reflexion uses verbal self-reflection to improve later trials",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:analogy/order-slip",
+   "type": "Analogy",
+   "ko": "주문서 ↔ 프롬프트",
+   "en": "order slip ↔ prompt",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:analogy/new-parttimer",
+   "type": "Analogy",
+   "ko": "새 아르바이트생 ↔ 한 줄 프롬프트",
+   "en": "new part-timer ↔ one-line prompt",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:analogy/meeting",
+   "type": "Analogy",
+   "ko": "회의 ↔ 고급 기법",
+   "en": "business meeting ↔ advanced prompting",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:question/prompt-usefulness",
+   "type": "Question",
+   "ko": "같은 AI에게 같은 일을 시키는데 왜 답의 쓸모가 달라질까?",
+   "en": "why do prompts for the same task differ in usefulness?",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:question/one-line-enough",
+   "type": "Question",
+   "ko": "카페 창업 계획, 한 줄 프롬프트로 충분할까?",
+   "en": "is a one-line prompt enough for a cafe startup plan?",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:question/fig66",
+   "type": "Question",
+   "ko": "교재 그림 6-6(제약 전후 +35%)의 수치 출처는? (원문 확인 필요)",
+   "en": "source of the figure 6-6 numbers?",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:question/min-max-name",
+   "type": "Question",
+   "ko": "\"최소-최대 접근\"은 어떤 문헌 기법을 가리키나? (원문 확인 필요)",
+   "en": "which published technique does min-max staging refer to?",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:question/react-figure",
+   "type": "Question",
+   "ko": "교재 그림 6-8의 도식(목표·아이디어·실행·성과)과 캡션(생각·행동·관찰)이 다른 이유는?",
+   "en": "figure 6-8 diagram vs caption mismatch",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:sim/prompt-builder",
+   "type": "Simulation",
+   "ko": "프롬프트 조립기",
+   "en": "prompt builder",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:sim/smart-checker",
+   "type": "Simulation",
+   "ko": "SMART 판정기",
+   "en": "SMART checker",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:sim/segment-swap",
+   "type": "Simulation",
+   "ko": "세그먼트 바꿔 끼우기",
+   "en": "segment swap",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:sim/budget-constraint",
+   "type": "Simulation",
+   "ko": "예산 제약 실험",
+   "en": "budget constraint",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:sim/naming-weights",
+   "type": "Simulation",
+   "ko": "네이밍 가중치 채점",
+   "en": "naming weights",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:sim/price-blend",
+   "type": "Simulation",
+   "ko": "가격 세 접근 합치기",
+   "en": "price blend",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:sim/react-cycles",
+   "type": "Simulation",
+   "ko": "REACT 세 바퀴",
+   "en": "ReAct cycles",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:sim/duel",
+   "type": "Simulation",
+   "ko": "한 줄 vs 8요소 대결",
+   "en": "one-line vs eight-element duel",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:work/textbook2026genai6",
+   "type": "Work",
+   "ko": "교재 『생성형AI활용전략』 프롬프트 엔지니어링 활용 장",
+   "en": "textbook2026genai6",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:work/yao2023react",
+   "type": "Work",
+   "ko": "Yao 외 2023, ReAct",
+   "en": "yao2023react",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:work/wang2023selfconsistency",
+   "type": "Work",
+   "ko": "Wang 외 2023, Self-Consistency",
+   "en": "wang2023selfconsistency",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:work/lewis2020retrieval",
+   "type": "Work",
+   "ko": "Lewis 외 2020, RAG",
+   "en": "lewis2020retrieval",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:work/yao2023tree",
+   "type": "Work",
+   "ko": "Yao 외 2023, Tree of Thoughts",
+   "en": "yao2023tree",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:work/zhou2023least",
+   "type": "Work",
+   "ko": "Zhou 외 2023, Least-to-Most",
+   "en": "zhou2023least",
+   "pages": [
+    "06"
+   ]
+  },
+  {
+   "id": "lab:work/shinn2023reflexion",
+   "type": "Work",
+   "ko": "Shinn 외 2023, Reflexion",
+   "en": "shinn2023reflexion",
+   "pages": [
+    "06"
+   ]
+  }
+ ],
+ "refs": [
+  {
+   "id": "handout2026ch5prompt",
+   "title": "제5장 프롬프트 엔지니어링 활용 — 창업 업종분석: 카페·패션몰"
+  }
+ ],
+ "updated": "2026-11-03"
+}

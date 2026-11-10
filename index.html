@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>생성형 AI 활용 전략</title>
+<meta name="description" content="강의 '생성형 AI 활용 전략' 교안 9장과 부록을 박사·조수(하루)·초파리 연구원·주판봇이 진행하는 비전공자용 해설 페이지로 옮긴 시리즈 목차">
+<meta name="author" content="안상선">
+<meta property="og:type" content="website">
+<meta property="og:title" content="생성형 AI 활용 전략 — AI 연구실 해설">
+<meta property="og:description" content="AI를 몰라도 읽을 수 있게, 장마다 직접 켜고 끄며 배우는 해설 페이지">
+<meta property="og:image" content="assets/og_index.webp">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#13141f;--panel:#1c1e2d;--panel2:#25283a;--rule:#363a52;--text:#eceaf3;--muted:#9d9bb8;
+  --gfp:#5ee39c;--amber:#f1b646;--info:#82b8ff;--accent:#c48a5a;color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:400 16px/1.7 "IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR",system-ui,sans-serif;overflow-x:hidden}
+h1,h2,h3,p,li{word-break:keep-all;overflow-wrap:break-word}
+a{color:var(--info)}
+:focus-visible{outline:2px solid var(--amber);outline-offset:2px;border-radius:4px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 16px}
+.cover{position:relative;margin:0;aspect-ratio:16/9;max-height:62vh;width:100%;overflow:hidden;background:linear-gradient(160deg,#1b1533,#13141f);border-bottom:1px solid var(--rule)}
+.cover img{display:block;width:100%;height:100%;object-fit:cover;object-position:50% 30%}
+.cover::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 55%,rgba(19,20,31,.9))}
+@media (max-width:600px){.cover{max-height:none}}
+header.hero{padding:36px 0 12px}
+.kicker{font-size:13px;letter-spacing:.14em;color:var(--accent);font-weight:700}
+h1{font-size:clamp(30px,5vw,52px);line-height:1.2;margin:.2em 0 .3em}
+.byline{color:var(--muted);font-size:14px}
+.lead{color:var(--muted);max-width:760px}
+h2{font-size:clamp(22px,3vw,28px);margin:40px 0 14px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px}
+.card{display:flex;flex-direction:column;background:var(--panel);border:1px solid var(--rule);border-radius:16px;overflow:hidden;text-decoration:none;color:inherit;transition:border-color .2s,transform .2s}
+a.card:hover{border-color:var(--gfp);transform:translateY(-2px)}
+@media (prefers-reduced-motion:reduce){a.card,a.card:hover{transition:none;transform:none}}
+.card img{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;flex:none}
+.card .ph{aspect-ratio:3/2;display:grid;place-items:center;background:repeating-linear-gradient(135deg,#1c1e2d 0 14px,#202336 14px 28px);color:var(--muted);font-size:14px}
+.card .body{padding:14px 16px 16px;flex:1;display:flex;flex-direction:column;gap:6px}
+.chap{display:inline-flex;align-items:center;gap:8px;font-size:13px;color:var(--amber);font-weight:700}
+.chap i{display:inline-grid;place-items:center;width:30px;height:33px;background:var(--panel2);clip-path:polygon(50% 0,100% 25%,100% 75%,50% 100%,0 75%,0 25%);font-style:normal;font-size:14px}
+.card h3{margin:0;font-size:18px;line-height:1.4}
+.card p{margin:0;color:var(--muted);font-size:14px}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:auto;padding-top:8px}
+.tags span{font-size:12px;padding:2px 9px;border-radius:999px;background:var(--panel2);color:var(--muted);border:1px solid var(--rule)}
+.tags span.on{color:var(--gfp);border-color:rgba(94,227,156,.45)}
+.cast{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.cast div{background:var(--panel);border:1px solid var(--rule);border-radius:14px;padding:12px 14px}
+.cast b{display:block}
+.cast span{font-size:13px;color:var(--muted)}
+@media (max-width:760px){.cast{grid-template-columns:repeat(2,1fr)}}
+.how{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.how div{background:var(--panel);border:1px solid var(--rule);border-radius:14px;padding:14px}
+.how b{color:var(--amber)}
+@media (max-width:760px){.how{grid-template-columns:1fr}}
+footer{border-top:1px solid var(--rule);margin-top:48px;padding:28px 0 48px;color:var(--muted);font-size:14px}
+.card .ph{position:relative}
+.card .ph b{font-size:56px;line-height:1;color:var(--panel2);font-weight:700;-webkit-text-stroke:1px var(--rule)}
+.card .ph span{position:absolute;bottom:10px;font-size:13px}
+.card.soon{opacity:.72}
+.card.soon .ph{aspect-ratio:3/1}
+.card.soon .ph b{font-size:40px}
+.card.soon .ph span{display:none}
+.card.soon h3{color:var(--muted)}
+.card .old{font-size:13px}
+.part{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+.part small{color:var(--muted);font-size:14px;font-weight:400}
+.status{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 0}
+.status span{font-size:13px;padding:3px 10px;border-radius:999px;background:var(--panel);border:1px solid var(--rule);color:var(--muted)}
+.status b{color:var(--gfp)}
+footer a{overflow-wrap:anywhere}
+</style>
+</head>
+<body>
+<!-- lab-cover -->
+<header class="cover" data-img="cover_index">
+  <picture>
+    <source type="image/webp" srcset="assets/cover_index_960.webp 960w, assets/cover_index.webp 1600w" sizes="100vw">
+    <img src="assets/cover_index.webp" width="1600" height="900" alt="밤의 연구실 책장에 아홉 권의 장과 네 권의 부록이 꽂혀 있고, 6장이 빛나며 반쯤 나와 있다. 그 앞에 박사·조수·초파리 연구원·주판봇이 서 있다" fetchpriority="high" decoding="async">
+  </picture>
+</header>
+<!-- /lab-cover -->
+
+<header class="hero"><div class="wrap">
+  <div class="kicker">AI 연구실 해설 · 강의 시리즈 · 목차</div>
+  <h1>생성형 AI 활용 전략</h1>
+  <p class="byline">글 · 안상선 (<a href="https://adminmrobo.github.io/who_am_i/who_am_i.html">소개</a>) · (주)M-Robo 대표</p>
+  <p class="lead">강의 교안 한 장을 해설 페이지 하나로 옮겼습니다. AI를 처음 접하는 분도 끝까지 읽을 수 있게, 장마다 "처음 오신 분께 — 3줄 요약"으로 시작하고, 버튼과 슬라이더를 직접 움직여 보며 배웁니다. 이 목차에서 장을 고르면 해설 페이지로 이동하고, 각 페이지 맨 위 "← 목차"로 돌아옵니다.</p>
+  <div class="status"><span>본문 9장 · 부록 4편 (예정)</span><span>공개 <b>1</b>편 · 제6장</span></div>
+</div></header>
+
+<main class="wrap">
+  <h2 class="part">본문 <small>제1장 ~ 제9장</small></h2>
+  <div class="grid">
+    <!-- 제1장: 공개하면 위 6장 카드처럼 <a class="card" href="01_….html">로 바꾸세요 -->
+    <div class="card soon" aria-disabled="true">
+      <div class="ph"><b>1</b><span>준비 중</span></div>
+      <div class="body">
+        <span class="chap"><i>1</i>제1장</span>
+        <h3>준비 중</h3>
+      </div>
+    </div>
+    <!-- 제2장: 공개하면 위 6장 카드처럼 <a class="card" href="02_….html">로 바꾸세요 -->
+    <div class="card soon" aria-disabled="true">
+      <div class="ph"><b>2</b><span>준비 중</span></div>
+      <div class="body">
+        <span class="chap"><i>2</i>제2장</span>
+        <h3>준비 중</h3>
+      </div>
+    </div>
+    <!-- 제3장: 공개하면 위 6장 카드처럼 <a class="card" href="03_….html">로 바꾸세요 -->
+    <div class="card soon" aria-disabled="true">
+      <div class="ph"><b>3</b><span>준비 중</span></div>
+      <div class="body">
+        <span class="chap"><i>3</i>제3장</span>
+        <h3>준비 중</h3>
+      </div>
+    </div>
+    <!-- 제4장: 공개하면 위 6장 카드처럼 <a class="card" href="04_….html">로 바꾸세요 -->
+    <div class="card soon" aria-disabled="true">
+      <div class="ph"><b>4</b><span>준비 중</span></div>
+      <div class="body">
+        <span class="chap"><i>4</i>제4장</span>
+        <h3>준비 중</h3>
+      </div>
+    </div>
+    <!-- 제5장: 공개하면 위 6장 카드처럼 <a class="card" href="05_….html">로 바꾸세요 -->
+    <div class="card soon" aria-disabled="true">
+      <div class="ph"><b>5</b><span>준비 중</span></div>
+      <div class="body">
+        <span class="chap"><i>5</i>제5장</span>
+        <h3>준비 중</h3>
+        <p class="old"><a href="https://github.com/adminmrobo/Gen_AI_strategy_ch05">이전 판(별도 저장소) 보기 →</a></p>
+      </div>
+    </div>
+    <!-- 제6장 -->
+    <a class="card" href="06_prompt_startup.html">
+      <img src="assets/thumb_06.webp" width="600" height="400" alt="여덟 칸 주문 카드 앞의 박사·조수·초파리 연구원·주판봇" loading="lazy" decoding="async">
+      <div class="body">
+        <span class="chap"><i>6</i>제6장 · 프롬프트 엔지니어링 활용</span>
+        <h3>프롬프트로 창업하기 — 카페와 쇼핑몰에 일을 맡기는 8요소 프레임워크</h3>
+        <p>AI에게 일을 시킬 때 적어야 할 여덟 가지를 카페와 쇼핑몰 예로 하나씩 채워 봅니다. 짧게 물으면 왜 뻔한 답이 나오는지, 조건을 적으면 무엇이 달라지는지 직접 켜고 끄며 확인합니다.</p>
+        <div class="tags"><span class="on">공개</span><span>비전공자용</span><span>실험 8종</span><span>대결 1판</span><span>퀴즈 12문항</span></div>
+      </div>
+    </a>
+    <!-- 제7장: 공개하면 위 6장 카드처럼 <a class="card" href="07_….html">로 바꾸세요 -->
+    <div class="card soon" aria-disabled="true">
+      <div class="ph"><b>7</b><span>준비 중</span></div>
+      <div class="body">
+        <span class="chap"><i>7</i>제7장</span>
+        <h3>준비 중</h3>
+      </div>
+    </div>
+    <!-- 제8장: 공개하면 위 6장 카드처럼 <a class="card" href="08_….html">로 바꾸세요 -->
+    <div class="card soon" aria-disabled="true">
+      <div class="ph"><b>8</b><span>준비 중</span></div>
+      <div class="body">
+        <span class="chap"><i>8</i>제8장</span>
+        <h3>준비 중</h3>
+      </div>
+    </div>
+    <!-- 제9장: 공개하면 위 6장 카드처럼 <a class="card" href="09_….html">로 바꾸세요 -->
+    <div class="card soon" aria-disabled="true">
+      <div class="ph"><b>9</b><span>준비 중</span></div>
+      <div class="body">
+        <span class="chap"><i>9</i>제9장</span>
+        <h3>준비 중</h3>
+      </div>
+    </div>
+  </div>
+
+  <h2 class="part">부록 <small>3~4편 예정</small></h2>
+  <div class="grid">
+    <!-- 부록 A -->
+    <div class="card soon" aria-disabled="true">
+      <div class="ph"><b>A</b><span>준비 중</span></div>
+      <div class="body">
+        <span class="chap"><i>A</i>부록 A</span>
+        <h3>준비 중</h3>
+      </div>
+    </div>
+    <!-- 부록 B -->
+    <div class="card soon" aria-disabled="true">
+      <div class="ph"><b>B</b><span>준비 중</span></div>
+      <div class="body">
+        <span class="chap"><i>B</i>부록 B</span>
+        <h3>준비 중</h3>
+      </div>
+    </div>
+    <!-- 부록 C -->
+    <div class="card soon" aria-disabled="true">
+      <div class="ph"><b>C</b><span>준비 중</span></div>
+      <div class="body">
+        <span class="chap"><i>C</i>부록 C</span>
+        <h3>준비 중</h3>
+      </div>
+    </div>
+    <!-- 부록 D (예정) -->
+    <div class="card soon" aria-disabled="true">
+      <div class="ph"><b>D</b><span>준비 중</span></div>
+      <div class="body">
+        <span class="chap"><i>D</i>부록 D (예정)</span>
+        <h3>준비 중</h3>
+      </div>
+    </div>
+  </div>
+
+  <h2>이렇게 읽어요</h2>
+  <div class="how">
+    <div><b>1. 3줄 요약부터</b><p>페이지마다 "처음 오신 분께" 상자에 무엇을 · 왜 · 업무에서는 어떻게 쓰는지가 있습니다. 영어 약어는 그 상자에서 풀어 줍니다.</p></div>
+    <div><b>2. 직접 바꿔 보기</b><p>칸마다 연구실 식구들의 대화가 "이걸 눌러 봐"라고 알려 줍니다. 실험은 모두 설명용 모형이며 실제 AI를 부르지 않습니다.</p></div>
+    <div><b>3. 수식은 조수가 대신 물어요</b><p>숫자가 나오는 칸에는 수학을 어려워하는 조수가 질문하고, 학교 수학과 숫자 예시로 풀어 줍니다. 코드·수식을 몰라도 됩니다.</p></div>
+  </div>
+
+  <h2>등장인물</h2>
+  <div class="cast">
+    <div><b style="color:#b07cff">박사</b><span>해설자 · 심판</span></div>
+    <div><b style="color:#ff86b8">조수(하루)</b><span>실험 진행 · 숫자 발표 · 수식 질문</span></div>
+    <div><b style="color:#ff8a8a">초파리 연구원</b><span>의심하는 쪽 · "이걸 눌러 봐"</span></div>
+    <div><b style="color:#57d0dc">주판봇</b><span>확신하는 쪽 · 주판으로 셈</span></div>
+  </div>
+</main>
+
+<footer><div class="wrap">
+  <p>글 · 안상선 (<a href="https://adminmrobo.github.io/who_am_i/who_am_i.html">https://adminmrobo.github.io/who_am_i/who_am_i.html</a>) · (주)M-Robo 대표</p>
+  <p>캐릭터: <a href="https://github.com/adminmrobo/fruitfly-lab-expressions">fruitfly-lab-expressions</a> · 제작 도구: <a href="https://github.com/adminmrobo/ahnboat_lab_explainer">ahnboat_lab_explainer</a></p>
+  <p>해설 페이지의 실험과 계산 결과는 교육용 예시이며 실제 창업·업무 판단의 근거가 아닙니다.</p>
+</div></footer>
+</body>
+</html>
